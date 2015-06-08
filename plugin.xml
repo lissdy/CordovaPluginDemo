@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova.plugin.demo.advance"
+        version="0.1.0">
+
+  <name>CordovaPluginDemo</name>
+
+  <js-module src="www/advance_plugin.js" name="advance_plugin">
+    <clobbers target="AdvancePlugin" />
+  </js-module>
+
+</plugin>
