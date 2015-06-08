@@ -9,4 +9,12 @@
     <clobbers target="AdvancePlugin" />
   </js-module>
 
+  <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="AndroidPluginDemo">
+                <param name="android-package" value="cordova.plugin.demo.AndroidPluginDemo"/>
+            </feature>
+        </config-file>
+  </platform>
+
 </plugin>
