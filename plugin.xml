@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="cordova.plugin.demo"
+        id="cordova.plugin.demo.advance"
         version="0.1.0">
 
   <name>CordovaPluginDemo</name>
@@ -12,7 +12,7 @@
   <platform name="android">
         <config-file target="config.xml" parent="/*">
             <feature name="AndroidPluginDemo">
-                <param name="android-package" value="cordova.plugin.demo.AndroidPluginDemo"/>
+                <param name="android-package" value="cordova.plugin.demo.advance.AndroidPluginDemo"/>
             </feature>
         </config-file>
   </platform>
